@@ -1,0 +1,88 @@
+/* header */
+
+.navbar {
+    width: 100%;
+}
+.navbar-header {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+li {
+    margin: 10px;
+}
+
+/*About Me body */ 
+img {
+    width: 180px;
+    float: left;
+    padding: 0 20px 20px 0;
+    margin-top: 20px;
+}
+
+html {
+    background: url(../images/crossline-lines.png);
+}
+
+body {
+    background: none;
+}
+
+.container {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.title {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    padding: 20px;
+    border-bottom: 2px solid #cccccc;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*Portfolio*/
+/* Can't get the h3 border formatting. I left the background color blank to avoid the entire image being covered in blue*/
+h3 {
+    position: relative;
+    top: -70px;
+    text-align: center;
+    background-color: none;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.portfolio-photo {
+    display: inline-block;
+}
+
+.photo {
+    width: 300px;
+}
+
+.photo-title {
+    max-height: auto;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: #dddddd;
+    padding: 20px;
+}
